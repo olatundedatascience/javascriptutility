@@ -7,4 +7,12 @@ pipeline {
             }
         }
     }
+    
+    post {
+        always {
+            console.log("this is always")   
+            
+        }
+        
+    }
 }
