@@ -84,10 +84,4 @@ class List  {
 
 
 //var tl = new List()
-
-var tl = new List()
-tl.add("one")
-tl.add("two")
-tl.addAndCheck("two", true)
-tl.addAndCheck("two", false)
-console.log(tl.Count)
+module.exports = {List:List}
